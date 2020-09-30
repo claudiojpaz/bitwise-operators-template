@@ -1,6 +1,6 @@
 # bitwise-operators-template
 
-Este proyecto sirve para aprender los operadores a nive de bit y mostrar una referencia visual sin necesidad de una placa con LEDs
+Este proyecto sirve para aprender los operadores a nivel de bit y mostrar una referencia visual sin necesidad de una placa con LEDs
 
 ## Requisitos
 
@@ -79,3 +79,15 @@ int main (void)
   return 0;
 }
 ```
+
+Cuando se modifica el código, desde el directorio base del proyecto, hay que hacer
+```
+$ make clean
+```
+eso borra todos los archivos objeto y permite hacer una instalación limpia. Luego
+
+```
+$ make
+```
+
+ya volver a empezar.

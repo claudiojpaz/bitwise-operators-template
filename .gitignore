@@ -11,4 +11,5 @@ echo_byte
 #editor textos
 *~
 *.swp
+*.bak
 

@@ -6,6 +6,8 @@ syntax: glob
 *.o
 *.pyc
 
+echo_byte
+
 #editor textos
 *~
 *.swp

@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-unsigned int integer2byte_rep (unsigned int b)
+unsigned int integer2byte_rep (unsigned char b)
 {
-  unsigned int mask = 1;
+  unsigned char mask = 1;
   unsigned int decade = 1;
   unsigned int r = 0;
 

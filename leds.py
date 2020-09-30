@@ -52,5 +52,5 @@ def data_gen():
             yield line
 
 fd = sys.stdin
-ani = animation.FuncAnimation(fig, animate, frames=data_gen, repeat=False)
+ani = animation.FuncAnimation(fig, animate, frames=data_gen, repeat=False, interval=10)
 plt.show()
